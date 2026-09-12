@@ -17,7 +17,7 @@ Gender = st.selectbox("Gender", ["Male","Female"])
 
 # Predict Button 
 if st.button("Predict"):
-    input_data = pd.DateFrame({
+    input_data = pd.DataFrame({
        'Age' : [Age],
        'Balance':[Balance],
        'IsActiveMember' : [Is_active],
